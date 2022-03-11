@@ -1,0 +1,38 @@
+.footer {
+  padding: 60px 0 70px;
+}
+
+.footer__wrapper {
+  display: flex;
+}
+
+.footer-navigation {
+  flex-grow: 1;
+}
+
+.footer__navigation{
+
+}
+
+.footer__navigation_title {
+  margin: 0 0 15px;
+}
+
+.footer__navigation_links {
+  padding: 0 0;
+  list-style: none;
+  @extend %font-add;
+  @include font($style: normal, $weight: normal, $size: 1.6rem, $height: 3.5rem);
+  a {
+    color: $color-text;
+    @extend %transition;
+    text-decoration: none;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}
+
+.footer__logo {
+  margin-right: 152px;
+}

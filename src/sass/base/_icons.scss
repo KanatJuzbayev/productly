@@ -1,0 +1,61 @@
+.ico {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.ico_play {
+  background-image: url("../img/icons/play.svg");
+  width: 18px;
+  height: 19px;
+}
+
+.ico_arrow {
+  @include ico_tool ("../img/icons/arrow.svg", 12px, 17px);
+}
+
+.ico_wave {
+  @include ico_tool ("../img/icons/wave.svg", 18px, 14px);
+}
+
+.ico_heart {
+  @include ico_tool ("../img/icons/heart.svg", 17px, 15px);
+}
+
+.ico_watch {
+  @include ico_tool ("../img/icons/watch.svg", 15px, 17px);
+}
+
+.link-button__text {
+  margin-left: 9px;
+}
+
+.icon-square {
+  width: 50px;
+  height: 50px;
+  border-radius: 19px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  &_violet {
+    background-color: $color-violet;
+  }
+  &_yellow {
+    background-color: $color-yellow;
+  }
+  &_red {
+    background-color: $color-red;
+  }
+  &_blue {
+    background-color: $color-blue;
+  }
+}
+
+.ico_phone {
+  @include ico_tool ("../img/icons/phone.svg", 25px, 25px);
+  margin-right: 11px;
+}
+
+.ico_mail {
+  @include ico_tool ("../img/icons/mail.svg", 25px, 25px);
+  margin-right: 11px;
+}
