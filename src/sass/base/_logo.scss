@@ -12,10 +12,10 @@
 }
 
 .logo-svg {
-    cursor: pointer;
-    &:hover {
-        .logo-path {
-            fill: $color-primary;
-        }
+  cursor: pointer;
+  &:hover {
+    .logo-path {
+      fill: $color-primary;
     }
+  }
 }
