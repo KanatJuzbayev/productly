@@ -1,1 +1,1 @@
-[Link](https://kanatjuzbayev.github.io/productly/dist/)
+[productly](https://kanatjuzbayev.github.io/productly/dist/)
